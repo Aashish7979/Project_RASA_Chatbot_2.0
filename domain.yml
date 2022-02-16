@@ -1,0 +1,82 @@
+    
+actions: 
+  - utter_greet
+  - utter_courses
+  - utter_Restaurant
+  - utter_Order
+  - utter_default
+  - utter_thank
+  - utter_bye
+  - utter_Delivery Criteria
+  - utter_menu
+  - utter_review
+  - utter_noanswer
+  - utter_options
+  - utter_order-status-request
+  - utter_cancel-request
+  - utter_cancel-order
+  - utter_no-cancel-order
+ 
+intents: 
+  - greet
+  - courses
+  - Order
+  - Restaurant
+  - thank
+  - bye
+  - Delivery Criteria
+  - menu
+  - review
+  - noanswer
+  - options
+  - order-status-request
+  - cancel-request
+  - cancel-order
+  - no-cancel-order
+    
+templates:
+  utter_greet:
+    - "Hello, thanks for asking"
+    - "Good to see you again" 
+    - "Hi there, how can I help?"
+  utter_Order:
+    - "Sure! Let me help you with menu." 
+    - "What you like to eat today?"     
+    - "What would you like to order?"
+  utter_Restaurant:
+    - "Sure"
+    - "Here is the menu"   
+  utter_default:
+    - "I didn't understand"  
+  utter_thank:
+    - "welcome"    
+  utter_bye:
+    - "It was nice talking to you"
+    - "Bye"    
+  utter_Delivery Criteria: 
+    - "within 30min"
+  utter_menu:
+  - "Restro has all major varities of cuisine. American, Indian, Thai, Chinese, Japanese, French, Greek, Mexican, Taiwan, Italian."
+  utter_review:
+  - "Our Restro is 5-star restro and we have average 4.7 ratings out of 5, You can also check our google reviews"
+  utter_noanswer: 
+  - "Sorry, can't understand you" 
+  - "Not sure I understand"
+  - "Please give me more info"
+  utter_options:
+  - "I can help you with your order status, delivery, and refund."
+  - "I can check your order status, and cancel your order."
+  utter_order-status-request: 
+  - "I am checking your status of your order, Please wait." 
+  - "I am checking up with for your order"
+  - "Sure! I can help you in tracking your order, Please wait."
+  utter_cancel-request:
+  - "I can cancel your order, If your order is in kitchen, there will be a cancellation fee.  Do you want me to proceed?"
+  - "I can cancel your order], there can be a cancellation fee depending on your order status. I need your final confirmation to confirm your order."
+  utter_cancel-order: 
+  - "I have canceled your order, the order refund will reflect in your account in 2 days. Do you need any more help?"
+  - "Your order is canceled, you will receive refund for this order in 2 days. Is there anything else, we can help you with?"
+  utter_no-cancel-order: 
+  - "Okay, I am not canceling your order. Do you need any more help?"
+  - "Alright, I am not canceling your order. Is there anything else, we can help you with?"
+      
